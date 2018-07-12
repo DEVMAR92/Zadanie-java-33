@@ -12,9 +12,7 @@ class Device {
     }
 
     public Device(String model, String producer, String category, double prize) {
-        this.model = model;
-        this.producer = producer;
-        this.category = category;
+        this(model, producer, category);
         this.prize = prize;
     }
 
